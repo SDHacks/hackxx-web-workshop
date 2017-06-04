@@ -2,10 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>SD Hacks Hack Day</title>
+    <title>Blogging App</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <div class="wrapper">
+      <h1>Hello</h1>
+
+      <div class="form-wrapper">
+        <form id="post-form">
+          <input type="text" placeholder="Title" name="title" id="title" />
+          <input type="text" placeholder="Post" name="post" id="post" />
+          <button class="form-submit" id="post-submit">Submit</button>
+        </form>
+      </div>
+
+      <!-- This is where we add stuff -->
+      <div id="postsWrapper">
+      </div>
+    </div>
+
     <script
       src="https://code.jquery.com/jquery-2.2.4.min.js"
       integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
